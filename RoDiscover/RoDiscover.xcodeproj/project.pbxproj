@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D683233228280E4600BD4745 /* RoDiscoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683233128280E4600BD4745 /* RoDiscoverApp.swift */; };
+		D683233428280E4600BD4745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683233328280E4600BD4745 /* ContentView.swift */; };
+		D683233628280E4800BD4745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D683233528280E4800BD4745 /* Assets.xcassets */; };
+		D683233928280E4800BD4745 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D683233828280E4800BD4745 /* Preview Assets.xcassets */; };
+		D683234328280E4800BD4745 /* RoDiscoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683234228280E4800BD4745 /* RoDiscoverTests.swift */; };
+		D683234D28280E4800BD4745 /* RoDiscoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683234C28280E4800BD4745 /* RoDiscoverUITests.swift */; };
+		D683234F28280E4800BD4745 /* RoDiscoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683234E28280E4800BD4745 /* RoDiscoverUITestsLaunchTests.swift */; };
+		D683235C2828701A00BD4745 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683235B2828701A00BD4745 /* CircleImage.swift */; };
+		D683235E282872A400BD4745 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D683235D282872A400BD4745 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D683233F28280E4800BD4745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D683232628280E4600BD4745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D683232D28280E4600BD4745;
+			remoteInfo = RoDiscover;
+		};
+		D683234928280E4800BD4745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D683232628280E4600BD4745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D683232D28280E4600BD4745;
+			remoteInfo = RoDiscover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D683232E28280E4600BD4745 /* RoDiscover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoDiscover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683233128280E4600BD4745 /* RoDiscoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoDiscoverApp.swift; sourceTree = "<group>"; };
+		D683233328280E4600BD4745 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D683233528280E4800BD4745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D683233828280E4800BD4745 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D683233E28280E4800BD4745 /* RoDiscoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoDiscoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683234228280E4800BD4745 /* RoDiscoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoDiscoverTests.swift; sourceTree = "<group>"; };
+		D683234828280E4800BD4745 /* RoDiscoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoDiscoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683234C28280E4800BD4745 /* RoDiscoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoDiscoverUITests.swift; sourceTree = "<group>"; };
+		D683234E28280E4800BD4745 /* RoDiscoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoDiscoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D683235B2828701A00BD4745 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D683235D282872A400BD4745 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D683232B28280E4600BD4745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683233B28280E4800BD4745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683234528280E4800BD4745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D683232528280E4600BD4745 = {
+			isa = PBXGroup;
+			children = (
+				D683233028280E4600BD4745 /* RoDiscover */,
+				D683234128280E4800BD4745 /* RoDiscoverTests */,
+				D683234B28280E4800BD4745 /* RoDiscoverUITests */,
+				D683232F28280E4600BD4745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D683232F28280E4600BD4745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D683232E28280E4600BD4745 /* RoDiscover.app */,
+				D683233E28280E4800BD4745 /* RoDiscoverTests.xctest */,
+				D683234828280E4800BD4745 /* RoDiscoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D683233028280E4600BD4745 /* RoDiscover */ = {
+			isa = PBXGroup;
+			children = (
+				D683233128280E4600BD4745 /* RoDiscoverApp.swift */,
+				D683235D282872A400BD4745 /* MapView.swift */,
+				D683235B2828701A00BD4745 /* CircleImage.swift */,
+				D683233328280E4600BD4745 /* ContentView.swift */,
+				D683233528280E4800BD4745 /* Assets.xcassets */,
+				D683233728280E4800BD4745 /* Preview Content */,
+			);
+			path = RoDiscover;
+			sourceTree = "<group>";
+		};
+		D683233728280E4800BD4745 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D683233828280E4800BD4745 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D683234128280E4800BD4745 /* RoDiscoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				D683234228280E4800BD4745 /* RoDiscoverTests.swift */,
+			);
+			path = RoDiscoverTests;
+			sourceTree = "<group>";
+		};
+		D683234B28280E4800BD4745 /* RoDiscoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D683234C28280E4800BD4745 /* RoDiscoverUITests.swift */,
+				D683234E28280E4800BD4745 /* RoDiscoverUITestsLaunchTests.swift */,
+			);
+			path = RoDiscoverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D683232D28280E4600BD4745 /* RoDiscover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D683235228280E4800BD4745 /* Build configuration list for PBXNativeTarget "RoDiscover" */;
+			buildPhases = (
+				D683232A28280E4600BD4745 /* Sources */,
+				D683232B28280E4600BD4745 /* Frameworks */,
+				D683232C28280E4600BD4745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoDiscover;
+			productName = RoDiscover;
+			productReference = D683232E28280E4600BD4745 /* RoDiscover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D683233D28280E4800BD4745 /* RoDiscoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D683235528280E4800BD4745 /* Build configuration list for PBXNativeTarget "RoDiscoverTests" */;
+			buildPhases = (
+				D683233A28280E4800BD4745 /* Sources */,
+				D683233B28280E4800BD4745 /* Frameworks */,
+				D683233C28280E4800BD4745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D683234028280E4800BD4745 /* PBXTargetDependency */,
+			);
+			name = RoDiscoverTests;
+			productName = RoDiscoverTests;
+			productReference = D683233E28280E4800BD4745 /* RoDiscoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D683234728280E4800BD4745 /* RoDiscoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D683235828280E4800BD4745 /* Build configuration list for PBXNativeTarget "RoDiscoverUITests" */;
+			buildPhases = (
+				D683234428280E4800BD4745 /* Sources */,
+				D683234528280E4800BD4745 /* Frameworks */,
+				D683234628280E4800BD4745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D683234A28280E4800BD4745 /* PBXTargetDependency */,
+			);
+			name = RoDiscoverUITests;
+			productName = RoDiscoverUITests;
+			productReference = D683234828280E4800BD4745 /* RoDiscoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D683232628280E4600BD4745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D683232D28280E4600BD4745 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D683233D28280E4800BD4745 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D683232D28280E4600BD4745;
+					};
+					D683234728280E4800BD4745 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D683232D28280E4600BD4745;
+					};
+				};
+			};
+			buildConfigurationList = D683232928280E4600BD4745 /* Build configuration list for PBXProject "RoDiscover" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D683232528280E4600BD4745;
+			productRefGroup = D683232F28280E4600BD4745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D683232D28280E4600BD4745 /* RoDiscover */,
+				D683233D28280E4800BD4745 /* RoDiscoverTests */,
+				D683234728280E4800BD4745 /* RoDiscoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D683232C28280E4600BD4745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683233928280E4800BD4745 /* Preview Assets.xcassets in Resources */,
+				D683233628280E4800BD4745 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683233C28280E4800BD4745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683234628280E4800BD4745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D683232A28280E4600BD4745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683233428280E4600BD4745 /* ContentView.swift in Sources */,
+				D683235E282872A400BD4745 /* MapView.swift in Sources */,
+				D683233228280E4600BD4745 /* RoDiscoverApp.swift in Sources */,
+				D683235C2828701A00BD4745 /* CircleImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683233A28280E4800BD4745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683234328280E4800BD4745 /* RoDiscoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D683234428280E4800BD4745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D683234F28280E4800BD4745 /* RoDiscoverUITestsLaunchTests.swift in Sources */,
+				D683234D28280E4800BD4745 /* RoDiscoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D683234028280E4800BD4745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D683232D28280E4600BD4745 /* RoDiscover */;
+			targetProxy = D683233F28280E4800BD4745 /* PBXContainerItemProxy */;
+		};
+		D683234A28280E4800BD4745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D683232D28280E4600BD4745 /* RoDiscover */;
+			targetProxy = D683234928280E4800BD4745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D683235028280E4800BD4745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D683235128280E4800BD4745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D683235328280E4800BD4745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoDiscover/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = btg.com.RoDiscover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D683235428280E4800BD4745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoDiscover/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = btg.com.RoDiscover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D683235628280E4800BD4745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = btg.com.RoDiscoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoDiscover.app/RoDiscover";
+			};
+			name = Debug;
+		};
+		D683235728280E4800BD4745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = btg.com.RoDiscoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoDiscover.app/RoDiscover";
+			};
+			name = Release;
+		};
+		D683235928280E4800BD4745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = btg.com.RoDiscoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoDiscover;
+			};
+			name = Debug;
+		};
+		D683235A28280E4800BD4745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = btg.com.RoDiscoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoDiscover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D683232928280E4600BD4745 /* Build configuration list for PBXProject "RoDiscover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683235028280E4800BD4745 /* Debug */,
+				D683235128280E4800BD4745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D683235228280E4800BD4745 /* Build configuration list for PBXNativeTarget "RoDiscover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683235328280E4800BD4745 /* Debug */,
+				D683235428280E4800BD4745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D683235528280E4800BD4745 /* Build configuration list for PBXNativeTarget "RoDiscoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683235628280E4800BD4745 /* Debug */,
+				D683235728280E4800BD4745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D683235828280E4800BD4745 /* Build configuration list for PBXNativeTarget "RoDiscoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D683235928280E4800BD4745 /* Debug */,
+				D683235A28280E4800BD4745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D683232628280E4600BD4745 /* Project object */;
+}
